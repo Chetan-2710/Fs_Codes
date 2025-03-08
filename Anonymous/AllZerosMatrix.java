@@ -54,7 +54,7 @@
 
 import java.util.*;
 
-class Solution{
+class AllZerosMatrix{
     
     private static boolean helper(int[][] nums){
         
@@ -91,5 +91,6 @@ class Solution{
         }
         
         System.out.print(helper(nums));
+        sc.close();
     }
 }
