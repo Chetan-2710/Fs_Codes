@@ -59,7 +59,7 @@ class TreeNode {
   }
 }
 
-class Solution{
+class MaxWidth{
 
     private static int helper(TreeNode root,int[] count){
         if(root==null) return 0;
@@ -117,6 +117,6 @@ class Solution{
     
     System.out.print(count[0]);
     
-    
+    sc.close();
   }
 }  

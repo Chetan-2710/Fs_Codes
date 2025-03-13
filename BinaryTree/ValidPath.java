@@ -51,4 +51,4 @@ private static boolean helper(TreeNode root,int[] path,int index){
         }else if(helper(root.left,path,index+1)==true || helper(root.right,path,index+1)==true) return true;
     }
     return false;
-}s
+}

@@ -106,8 +106,8 @@ class Solution{
             return rr;
         }
         
-        TreeNode l=root.left;
-        TreeNode r=root.right;
+        // TreeNode l=root.left;
+        // TreeNode r=root.right;
         
         lr.right=root.right;
         root.right=root.left;
@@ -129,7 +129,7 @@ class Solution{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[] s = sc.nextLine().split(" ");
-        sc.nextDo
+        // sc.nextDo
         int n = s.length;
         int[] nums = new int[n];
         for (int i = 0; i < n; i++)
@@ -138,5 +138,6 @@ class Solution{
         TreeNode root = buildTree(nums);
         
         flattenTree(root);
+        sc.close();
     }
 } 

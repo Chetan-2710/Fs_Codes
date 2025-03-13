@@ -49,5 +49,7 @@ class TreeTemplate {
       nums[i] = Integer.parseInt(s[i]);
 
     TreeNode root = buildTree(nums);
+    System.out.println(root.data);
+    sc.close();
   }
 }

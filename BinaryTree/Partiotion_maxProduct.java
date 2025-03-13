@@ -54,7 +54,7 @@ class TreeNode {
   }
 }
 
-class Solution {
+class Partition_maxProduct{
     private static int findSum(TreeNode root,Hashtable<Integer,Integer> h){
         if(root==null) return 0;
         int s=root.data+findSum(root.left,h)+findSum(root.right,h);
@@ -83,8 +83,10 @@ class Solution {
     for (int i = 0; i < n; i++)
       nums[i] = Integer.parseInt(s[i]);
 
-    TreeNode root = buildTree(nums);
+    // TreeNode root = buildTree(nums); uncomment this in real code
+    TreeNode root=null; // comment or remove this in the real code
     
     System.out.println(max(root));
+    sc.close();
   }
 } 

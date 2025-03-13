@@ -84,7 +84,7 @@ class TreeNode {
   }
 }
 
-class Solution{
+class FamilyTree{
     
     private static void bringFamily(TreeNode root,StringBuilder s){
         if(root==null) return;
@@ -159,6 +159,6 @@ class Solution{
     
     System.out.print(finder(root));
     
-    
+    sc.close();
   }
 } 

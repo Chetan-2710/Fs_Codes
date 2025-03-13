@@ -1,8 +1,3 @@
-import java.util.*;
-
-/*
-
-Node for reference
 
 class TreeNode {
     Integer val;
@@ -14,7 +9,7 @@ class TreeNode {
     }
 }
 
-*/
+
 
 class Solution
 {

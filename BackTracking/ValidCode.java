@@ -51,7 +51,7 @@
 
 import java.util.*;
 
-class Solution{
+class ValidCode{
     
     private static boolean helper(String s,String target,int index,List<String> sb,int count){
         if(index==s.length()){
@@ -84,5 +84,6 @@ class Solution{
         String target=sc.nextLine();
         
         System.out.print(helper(s,target,0,new ArrayList<>(),0));
+        sc.close();
     }
 } 

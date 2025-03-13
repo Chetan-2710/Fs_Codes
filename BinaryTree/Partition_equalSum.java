@@ -53,7 +53,7 @@ class TreeNode {
   }
 }
 
-class Solution{
+class Partition_equalSum{
     
     private static int findSum(TreeNode root,Hashtable<Integer,Integer> h){
         if(root==null) return 0;
@@ -82,8 +82,11 @@ class Solution{
         for (int i = 0; i < n; i++)
           nums[i] = Integer.parseInt(s[i]);
     
-        TreeNode root = buildTree(nums);
+        // TreeNode root = buildTree(nums);
+        TreeNode root=null;
         
         System.out.println(balancedLoad(root));
+
+        sc.close();
     }
 }

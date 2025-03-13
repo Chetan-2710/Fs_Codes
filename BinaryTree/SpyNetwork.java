@@ -60,7 +60,7 @@ class TreeNode {
     right = null;
   }
 }
-class Solution {
+class SpyNetwork{
 
   private static void printTree(TreeNode root, List<Integer> res) {
     if (root == null)
