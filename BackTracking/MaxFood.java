@@ -196,6 +196,6 @@ class MaxFood{
         
         helper(food,nests,home,time,start,end,internal,vis,res);
         System.out.println(res[0]);
-        
+        sc.close();
     }
 }

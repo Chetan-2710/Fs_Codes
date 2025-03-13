@@ -76,7 +76,7 @@
 
 import java.util.*;
 
-class Solution{
+class NoofWays{
     
     private static void helper(int x,int y,int[] large,int[] small,int i1,int i2,int presum,int[] count){
         if(i2>=y){
@@ -106,5 +106,6 @@ class Solution{
         helper(x,y,large,small,0,0,0,count);
         
         System.out.print(count[0]);
+        sc.close();
     }
 }
