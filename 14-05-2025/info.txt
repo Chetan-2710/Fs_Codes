@@ -1,0 +1,2 @@
+Program 1 - Binary Search (p should be from 0 to R so do bs for indices array) - did in linear way
+Program 2 - simple looping and Hashmap
