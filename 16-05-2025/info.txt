@@ -1,0 +1,4 @@
+Program 1 - do it without using flag by check if there are 2 or more consecutive elemtents and if so then keep and inner loop which
+            will add the values of that elements till another element is found.
+
+Program 2 - do it using binary search by taking the company indices in map
