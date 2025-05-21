@@ -1,0 +1,2 @@
+Program 1 - Greedy - similar lo number of platforms required for train but in opposite way like how many shots required to shoot all the melons
+Program 2 - grid and horiontal, vertical fence but not graphs.
