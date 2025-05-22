@@ -1,0 +1,2 @@
+Program 1 - Palindrome or not after dividing the strings and concatening them 
+Program 2 - Only question is present, no answer.
