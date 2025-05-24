@@ -1,0 +1,1 @@
+Program 1 - Group Anagrams - Optimal time complexity is O(n*k) where n is number of words and k is the length of the word.
